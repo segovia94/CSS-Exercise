@@ -1,0 +1,10 @@
+# ignore node dependency directory
+node_modules/
+
+# ignore OS generated files
+ehthumbs.db
+Thumbs.db
+
+# ignore editor
+.idea
+.vscode

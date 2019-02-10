@@ -1,0 +1,8 @@
+/* Global "container" class to offset the content from the edges of the screen. */
+.l-container {
+  width: 85%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Add your custom styles below */
