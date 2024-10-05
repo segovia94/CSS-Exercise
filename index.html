@@ -3,16 +3,19 @@
 
 <head>
   <meta charset="utf-8"/>
-  <meta name="description" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <!-- Title -->
   <title>Akame - Hair Salon HTML Template</title>
+  <meta name="description" content=""/>
 
   <!-- Normalize base styles across different browsers -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/modern-normalize@3.0.1/modern-normalize.css"/>
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/styles.css"/>
+
+  <!-- Javascript file with ESM support -->
+  <script src="js/main.js" type="module"></script>
 </head>
 
 <body>
@@ -80,7 +83,7 @@
     <div class="l-container">
       <!-- Section Heading -->
       <header>
-        <h1>Hair Salon</h1>
+        <h2>Hair Salon</h2>
         <p>The House of Hair Salon &amp; Spa</p>
         <span>About Us</span>
       </header>
@@ -90,7 +93,7 @@
 
       <!-- About Us Content -->
       <div>
-        <h2>Beautiful Hair Comes From A Legendary.</h2>
+        <h3>Beautiful Hair Comes From A Legendary.</h3>
         <p>
           “Working in a salon, you look at trends all day long. You’re looking
           at color all the time,what new products are coming out. You’re a
@@ -110,7 +113,7 @@
   <section>
     <div class="l-container">
       <header>
-        <h1>Our Services</h1>
+        <h2>Our Services</h2>
         <p>The House of Hair Salon &amp; Spa, incididunt ut labore et dolore magna aliqua.</p>
       </header>
 
@@ -118,28 +121,28 @@
         <!-- Single Service Area -->
         <article>
           <img src="images/s1.png" alt=""/>
-          <h4>Coloring</h4>
+          <h3>Coloring</h3>
           <p>Ut enim ad minim veniam, quis trud exercitation...</p>
         </article>
 
         <!-- Single Service Area -->
         <article>
           <img src="images/s3.png" alt=""/>
-          <h4>Haircut</h4>
+          <h3>Haircut</h3>
           <p>Consectetur adipisicing elit, sed doe eiusmod.</p>
         </article>
 
         <!-- Single Service Area -->
         <article>
           <img src="images/s4.png" alt=""/>
-          <h4>Hairstyle</h4>
+          <h3>Hairstyle</h3>
           <p>Nemo enim ipsam voluptatem quia voluptas</p>
         </article>
 
         <!-- Single Service Area -->
         <article>
           <img src="images/s3.png" alt=""/>
-          <h4>Coloring</h4>
+          <h3>Coloring</h3>
           <p>Ut enim ad minim veniam, quis trud exercitation...</p>
         </article>
       </div>
@@ -152,7 +155,7 @@
     <div class="l-container">
       <!-- Section Heading -->
       <header>
-        <h1>Why Choose Us</h1>
+        <h2>Why Choose Us</h2>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
           consequat.</p>
       </header>
@@ -172,7 +175,7 @@
   <section>
     <div class="l-container">
       <header>
-        <h1>Our Work</h1>
+        <h2>Our Work</h2>
         <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </header>
 
@@ -253,7 +256,7 @@
     <div class="l-container">
       <!-- Section Heading -->
       <header>
-        <h1>Our Experts</h1>
+        <h2>Our Experts</h2>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis
@@ -273,7 +276,7 @@
         <article>
           <img src="images/photos/10.jpg" alt=""/>
           <div>
-            <h4>Mila Hartley</h4>
+            <h3>Mila Hartley</h3>
             <p>Hairdresser</p>
           </div>
         </article>
@@ -282,7 +285,7 @@
         <article>
           <img src="images/photos/11.jpg" alt=""/>
           <div>
-            <h4>Teigan Duran</h4>
+            <h3>Teigan Duran</h3>
             <p>Stylist</p>
           </div>
         </article>
@@ -291,7 +294,7 @@
         <article>
           <img src="images/photos/12.jpg" alt=""/>
           <div>
-            <h4>Tanya Ramsay</h4>
+            <h3>Tanya Ramsay</h3>
             <p>Hairstylist</p>
           </div>
         </article>
@@ -300,7 +303,7 @@
         <article>
           <img src="images/photos/13.jpg" alt=""/>
           <div>
-            <h4>Donna Carr</h4>
+            <h3>Donna Carr</h3>
             <p>Baber</p>
           </div>
         </article>
@@ -318,7 +321,7 @@
     <div class="l-container">
       <!-- Section Heading -->
       <header>
-        <h1>Latest News</h1>
+        <h2>Latest News</h2>
         <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </header>
 
@@ -330,7 +333,7 @@
             <a href="#">Nina Dobrev Got a Major Haircut and Doesn't Look Like Nina Dobrev.</a>
             <div>
               <a href="#">September 27, 2018</a>
-              <a href="#">10</a>
+              <a href="#">10 <span class="visually-hidden">comments</span></a>
             </div>
             <p>Most people recognize the CFDA Awards for its slew of perfect gowns and skin-tight.</p>
           </div>
@@ -343,7 +346,7 @@
             <a href="#">Finally: How to Make Your Agressively Straight Hair Hold a Curl</a>
             <div>
               <a href="#">September 27, 2018</a>
-              <a href="#">10</a>
+              <a href="#">10 <span class="visually-hidden">comments</span></a>
             </div>
             <p>So I sought out an actual professional, i.e. celeb hairstylist Justine Marjan.</p>
           </div>
@@ -356,7 +359,7 @@
             <a href="#">Yes, Emilia Clarke Just Cut Off All Her Hair Into a Tiny Bob</a>
             <div>
               <a href="#">September 27, 2018</a>
-              <a href="#">10</a>
+              <a href="#">10 <span class="visually-hidden">comments</span></a>
             </div>
             <p>Last night, Clarke appeared on Late Night with Seth Meyers, wearing a charcoal blazer.</p>
           </div>
@@ -370,7 +373,7 @@
   <!-- Call To Action Area Start -->
   <section>
     <div class="l-container">
-      <h1>Make Stilo Your <br/>Number One Choice</h1>
+      <h2>Make Stilo Your <br/>Number One Choice</h2>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut la.</p>
       <div>
         <a href="#">Book An Appointment</a>

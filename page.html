@@ -3,16 +3,19 @@
 
 <head>
   <meta charset="utf-8"/>
-  <meta name="description" content=""/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
 
   <!-- Title -->
   <title>Page Title | Akame</title>
+  <meta name="description" content=""/>
 
   <!-- Normalize base styles across different browsers -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+  <link rel="stylesheet" href="https://unpkg.com/modern-normalize@3.0.1/modern-normalize.css"/>
   <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="css/styles.css"/>
+
+  <!-- Javascript file with ESM support -->
+  <script src="js/main.js" type="module"></script>
 </head>
 
 <body>
@@ -68,7 +71,7 @@
       <header>
         <div>
           <a href="#">September 27, 2018</a>
-          <a href="#">10</a>
+          <a href="#">10 <span class="visually-hidden">comments</span></a>
         </div>
         <h1>Finally: How to Make Your Aggressively Straight Hair Hold a Curl</h1>
       </header>
@@ -137,7 +140,7 @@
           <img src="images/photos/43.jpg" alt="">
           <div>
             <p>Gusest Writer</p>
-            <h4>John Smith</h4>
+            <p>John Smith</p>
           </div>
         </div>
 
@@ -177,7 +180,7 @@
     <div class="l-container">
       <!-- Section Heading -->
       <header>
-        <h1>Latest News</h1>
+        <h2>Latest News</h2>
         <p>Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </header>
 
@@ -247,7 +250,7 @@
     <!-- Single Footer Widget -->
     <section>
       <!-- Widget Title -->
-      <h3>Opening times</h3>
+      <h2>Opening times</h2>
 
       <!-- Open Times -->
       <div>
@@ -267,7 +270,7 @@
     <!-- Single Footer Widget -->
     <section>
       <!-- Widget Title -->
-      <h3>Contact Us</h3>
+      <h2>Contact Us</h2>
 
       <!-- Contact Address -->
       <div>
